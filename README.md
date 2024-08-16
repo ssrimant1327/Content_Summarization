@@ -19,8 +19,8 @@ This project provides an API that accepts medical reports in various formats (TX
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/medical-report-summarizer.git
-cd medical-report-summarizer
+git clone https://github.com/ssrimant/Content_Summarization.git
+cd Content_Summarization
 pip install -r requirements.txt
 uvicorn main:app --reload
 
@@ -31,15 +31,10 @@ Usage
 
 Web Interface
 Navigate to http://127.0.0.1:8000/ in your web browser.
-Use the provided form to upload a medical report in .txt, .pdf, or .docx format.
+Upload a medical report in .txt, .pdf, or .docx format.
 Click "Upload and Summarize" to receive a summarized version of the report.
 API Endpoint
-You can also interact with the API programmatically:
 
-Endpoint: /uploadfile/
-Method: POST
-Form Data:
-file: The medical report file to be uploaded.
 
 Technical Details
 
