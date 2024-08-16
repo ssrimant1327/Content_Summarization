@@ -16,7 +16,7 @@ This project provides an API that accepts medical reports in various formats (TX
 - Python 3.7+
 - pip (Python package installer)
 
-### Step 1: Clone the Repository
+### Step 1: Clone the Repository and run below commands
 
 ```bash
 git clone https://github.com/ssrimant/Content_Summarization.git
