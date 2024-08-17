@@ -19,8 +19,8 @@ This project provides an API that accepts medical reports in various formats (TX
 ### Step 1: Clone the Repository and run below commands
 
 ```bash
-git clone https://github.com/ssrimant/Content_Summarization.git
-cd Content_Summarization
+git clone https://github.com/ssrimant/InternProject_Cotiviti.git
+cd InternProject_Cotiviti
 pip install -r requirements.txt
 uvicorn main:app --reload
 
